@@ -1,24 +1,24 @@
 # eurecovery-site
 
-Офіційний сайт **Міжнародного інституту розвитку та відновлення України** – приватної дослідницької установи, що працює над інтеграцією України до ЄС через інновації в енергетиці, IT і праві.
+Official website of the **International Institute for Development and Recovery of Ukraine** – a private research institution focused on integrating Ukraine into the EU through innovations in energy, IT, and law.
 
-## Про нас
-Заснований у [Рік], інститут фінансується грантами та співпрацює з Академією правових наук України, Національною юридичною академією імені Ярослава Мудрого, КПІ та Львівською політехнікою.
+## About Us
+The institute unites leading experts from the Academy of Legal Sciences of Ukraine, the National Law Academy of Ukraine named after Yaroslav the Wise, KPI, and Lviv Polytechnic to ensure energy, scientific, and digital integration of Ukraine into the EU.
 
-## Місія
-Забезпечення енергетичної, наукової та цифрової інтеграції України до ЄС.
+## Mission
+Ensuring Ukraine's integration into the EU through research and innovation.
 
-## Технології
-- **HTML5**: Структура.
-- **CSS3**: Стилі.
-- **JavaScript**: Інтерактивність.
+## Technologies
+- **HTML5**: Structure.
+- **CSS3**: Styles.
+- **JavaScript**: Interactivity.
 
-## Розгортання
-Сайт розміщено на GitHub Pages: [https://eurecovery.eu](https://eurecovery.eu).
+## Deployment
+The site is hosted on GitHub Pages: [https://eurecovery.eu](https://eurecovery.eu).
 
-## Установка
-1. Клонуйте репозиторій: `git clone https://github.com/greenvolt2025/eurecovery-site.git`
-2. Відкрийте `index.html` або розгорніть через GitHub Pages.
+## Installation
+1. Clone the repository: `git clone https://github.com/greenvolt2025/eurecovery-site.git`
+2. Open `en/index.html` or `uk/index.html`, or deploy via GitHub Pages.
 
-## Контакти
+## Contacts
 Email: [eurecoveryeu@gmail.com](mailto:eurecoveryeu@gmail.com)
