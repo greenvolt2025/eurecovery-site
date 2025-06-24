@@ -1,41 +1,53 @@
-<!DOCTYPE html>
 
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="International Institute for Development and Recovery of Ukraine – innovations in energy, IT, and law." name="description"/>
-<title>International Institute for Development and Recovery of Ukraine</title>
-<link href="../assets/styles.css" rel="stylesheet"/>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>EU Recovery Institute</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="assets/logo.png" type="image/png">
+    <link rel="manifest" href="manifest.json">
 </head>
 <body>
-<header>
-<img alt="Institute Logo" class="logo" src="../assets/logo.png"/>
-<nav>
-<a href="index.html">Home</a>
-<a href="about.html">About Us</a>
-<a href="programs.html">Programs</a>
-<a href="research.html">Research</a>
-<a href="cooperation.html">Cooperation</a>
-<a href="career.html">Career</a>
-<a href="contact.html">Contact</a>
-<a href="../uk/index.html">Українська</a>
-</nav>
-<a class="subscribe-btn" href="#subscribe">Subscribe to Newsletter</a>
-</header>
-<section class="hero">
-<div class="hero-content">
-<h1>Ensuring Ukraine's Energy, Scientific, and Digital Integration into the EU</h1>
-<p>Welcome to the International Institute for Development and Recovery of Ukraine, a leading private research institution dedicated to advancing innovation in energy, IT, and law, funded by grants.</p>
-<a class="hero-btn" href="about.html">Learn More</a>
-</div>
-</section>
-<footer>
-<div class="footer-content">
-<p>© 2025 International Institute for Development and Recovery of Ukraine</p>
-<p><a href="#">Privacy Policy</a> | <a href="#">Sitemap</a></p>
-</div>
-</footer>
-<script src="../assets/script.js"></script>
+    <div style="text-align:right; padding:10px;">
+        <a href="index.html">EN</a> | <a href="index_uk.html">UA</a>
+    </div>
+
+    <header>
+        <img src="assets/logo.png" alt="Institute Logo" width="100" />
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="programs.html">Programs</a>
+            <a href="research.html">Research</a>
+            <a href="cooperation.html">Cooperation</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Ensuring Ukraine's Energy, Scientific, and Digital Integration into the EU</h1>
+        <p>
+            Welcome to the International Institute for Development and Recovery of Ukraine,
+            a leading private research institution dedicated to advancing innovation in energy, IT, and law, funded by grants.
+        </p>
+        <a href="about.html">Learn More</a>
+    </main>
+
+    <footer>
+        <p>© 2025 International Institute for Development and Recovery of Ukraine</p>
+        <a href="privacy.html">Privacy Policy</a> | <a href="sitemap.html">Sitemap</a>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="serviceWorker.js"></script>
+    <script>
+    if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function () {
+            navigator.serviceWorker.register('serviceWorker.js');
+        });
+    }
+    </script>
 </body>
 </html>
