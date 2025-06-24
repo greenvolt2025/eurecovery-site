@@ -1,24 +1,32 @@
 <!DOCTYPE html>
 
 <html lang="en">
-<head>
+<head><link href="assets/logo.png" rel="icon" type="image/png"/>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <meta content="Cooperation of the International Institute for Development and Recovery of Ukraine." name="description"/>
 <title>Cooperation</title>
 <link href="../assets/styles.css" rel="stylesheet"/>
-<style>
-    body { font-family: Arial, sans-serif; margin: 1em; }
-    nav a { display: inline-block; margin-right: 10px; font-weight: bold; }
-    header { display: flex; flex-direction: column; align-items: center; }
-    img.logo { max-width: 100%; height: auto; }
-    @media (max-width: 768px) {
-        nav a { display: block; margin: 5px 0; }
-        header { text-align: center; }
-    }
-    </style></head>
+<meta content="EU Recovery Institute" property="og:title"/><meta content="Private scientific institution for EU integration, energy, and Web3." property="og:description"/><meta content="assets/logo.png" property="og:image"/><meta content="website" property="og:type"/></head>
 <body>
-<header><img alt="Institute Logo" class="logo" src="../assets/logo.png"/><div class="menu-toggle" onclick="toggleMenu()">☰ Меню</div></header>
+<div style="text-align:right; padding:10px;">
+<a href="index.html">EN</a> | <a href="index_uk.html">UA</a>
+</div>
+
+<header>
+<img alt="Institute Logo" class="logo" src="../assets/logo.png"/>
+<nav>
+<a href="index.html">Home</a>
+<a href="about.html">About Us</a>
+<a href="programs.html">Programs</a>
+<a href="research.html">Research</a>
+<a href="cooperation.html">Cooperation</a>
+<a href="career.html">Career</a>
+<a href="contact.html">Contact</a>
+<a href="../uk/cooperation.html">Українська</a>
+</nav>
+<a class="subscribe-btn" href="#subscribe">Subscribe to Newsletter</a>
+</header>
 <section class="section">
 <h2>Cooperation</h2>
 <p>We collaborate with partners from the European Union, international donors, universities such as KPI and Lviv Polytechnic, R&amp;D organizations, civil society, and open science platforms.</p>
@@ -31,10 +39,5 @@
 </div>
 </footer>
 <script src="../assets/script.js"></script>
-<script>
-        function toggleMenu() {
-            var nav = document.getElementById('main-nav');
-            nav.classList.toggle('active');
-        }
-        </script></body>
+</body>
 </html>
