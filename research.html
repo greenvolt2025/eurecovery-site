@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 
-<html lang="uk">
-<head><meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<html lang="en">
+<head>
 <meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="Research projects of the International Institute for Development and Recovery of Ukraine." name="description"/>
 <title>Research</title>
 <link href="../assets/styles.css" rel="stylesheet"/>
 <style>
@@ -16,9 +18,23 @@
     }
     </style></head>
 <body>
-<header><h1>Research (UK)</h1></header>
-<section>
-<p>This is the research page in Ukrainian.</p>
+<header><img alt="Institute Logo" class="logo" src="../assets/logo.png"/><div class="menu-toggle" onclick="toggleMenu()">☰ Меню</div></header>
+<section class="section">
+<h2>Research</h2>
+<p>Our key projects include the development of software for Virtual Power Plants (VPP) and energy balancing systems. We also actively publish research articles and reports, which can be found in our publications.</p>
+<a class="section-btn" href="cooperation.html">Learn More</a>
 </section>
-</body>
+<footer>
+<div class="footer-content">
+<p>© 2025 International Institute for Development and Recovery of Ukraine</p>
+<p><a href="#">Privacy Policy</a> | <a href="#">Sitemap</a></p>
+</div>
+</footer>
+<script src="../assets/script.js"></script>
+<script>
+        function toggleMenu() {
+            var nav = document.getElementById('main-nav');
+            nav.classList.toggle('active');
+        }
+        </script></body>
 </html>

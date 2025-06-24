@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html lang="uk">
+<html lang="en">
 <head><meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <meta charset="utf-8"/>
 <title>Career</title>
@@ -16,9 +16,14 @@
     }
     </style></head>
 <body>
-<header><h1>Career (UK)</h1></header>
+<header><img alt="Institute Logo" class="logo" src="../assets/logo.png"/><div class="menu-toggle" onclick="toggleMenu()">☰ Меню</div></header>
 <section>
-<p>This is the career page in Ukrainian.</p>
+<p>This is the career page in English.</p>
 </section>
-</body>
+<script>
+        function toggleMenu() {
+            var nav = document.getElementById('main-nav');
+            nav.classList.toggle('active');
+        }
+        </script></body>
 </html>

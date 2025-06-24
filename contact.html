@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 
-<html lang="uk">
+<html lang="en">
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="Контакти Міжнародного інституту розвитку та відновлення України." name="description"/>
-<title>Контакти</title>
+<meta content="Contact the International Institute for Development and Recovery of Ukraine." name="description"/>
+<title>Contact</title>
 <link href="../assets/styles.css" rel="stylesheet"/>
 <style>
     body { font-family: Arial, sans-serif; margin: 1em; }
@@ -18,34 +18,26 @@
     }
     </style></head>
 <body>
-<header>
-<img alt="Логотип інституту" class="logo" src="../assets/logo.png"/>
-<nav>
-<a href="index.html">Головна</a>
-<a href="about.html">Про нас</a>
-<a href="programs.html">Програми</a>
-<a href="research.html">Дослідження</a>
-<a href="cooperation.html">Співпраця</a>
-<a href="career.html">Кар'єра</a>
-<a href="contact.html">Контакти</a>
-<a href="../en/contact.html">English</a>
-</nav>
-<a class="subscribe-btn" href="#subscribe">Підписатися на розсилку</a>
-</header>
+<header><img alt="Institute Logo" class="logo" src="../assets/logo.png"/><div class="menu-toggle" onclick="toggleMenu()">☰ Меню</div></header>
 <section class="section">
-<h2>Контакти</h2>
-<p>Email: <a href="mailto:eurecoveryeu@gmail.com">eurecoveryeu@gmail.com</a>. Будь ласка, використовуйте форму нижче для зв’язку.</p>
+<h2>Contact</h2>
+<p>Email: <a href="mailto:eurecoveryeu@gmail.com">eurecoveryeu@gmail.com</a>. Please use the form below to get in touch.</p>
 <form class="contact-form" id="subscribe">
-<input placeholder="Ваш email" required="" type="email"/>
-<button type="submit">Підписатися</button>
+<input placeholder="Your email" required="" type="email"/>
+<button type="submit">Subscribe</button>
 </form>
 </section>
 <footer>
 <div class="footer-content">
-<p>© 2025 Міжнародний інститут розвитку та відновлення України</p>
-<p><a href="#">Політика конфіденційності</a> | <a href="#">Карта сайту</a></p>
+<p>© 2025 International Institute for Development and Recovery of Ukraine</p>
+<p><a href="#">Privacy Policy</a> | <a href="#">Sitemap</a></p>
 </div>
 </footer>
 <script src="../assets/script.js"></script>
-</body>
+<script>
+        function toggleMenu() {
+            var nav = document.getElementById('main-nav');
+            nav.classList.toggle('active');
+        }
+        </script></body>
 </html>
