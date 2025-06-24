@@ -1,47 +1,100 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="International Institute for Development and Recovery of Ukraine – innovations in energy, IT, and law.">
-    <title>International Institute for Development and Recovery of Ukraine</title>
-    <link rel="stylesheet" href="../assets/styles.css">
+    <meta name="description" content="Міжнародний інститут розвитку та відновлення України – інновації в енергетиці, IT та праві.">
+    <title>Міжнародний інститут розвитку та відновлення України</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <img src="../assets/logo.png" alt="Institute Logo" class="logo">
+        <img src="logo.png" alt="Логотип інституту" class="logo">
         <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About Us</a>
-            <a href="programs.html">Programs</a>
-            <a href="research.html">Research</a>
-            <a href="cooperation.html">Cooperation</a>
-            <a href="career.html">Career</a>
-            <a href="contact.html">Contact</a>
-            <a href="../uk/index.html">Українська</a>
+            <a href="#about">Про нас</a>
+            <a href="#programs">Програми</a>
+            <a href="#projects">Проєкти</a>
+            <a href="#cooperation">Співпраця</a>
+            <a href="#careers">Кар’єра</a>
+            <a href="#contact">Контакти</a>
+            <a href="?lang=en">English</a>
         </nav>
-        <a href="#subscribe" class="subscribe-btn">Subscribe to Newsletter</a>
+        <a href="#subscribe" class="subscribe-btn">Підписатися на розсилку</a>
     </header>
+
     <section class="hero">
         <div class="hero-content">
-            <h1>Ensuring Ukraine's Energy, Scientific, and Digital Integration into the EU</h1>
-            <p>Welcome to the International Institute for Development and Recovery of Ukraine, a leading private research institution dedicated to advancing innovation in energy, IT, and law.</p>
-            <a href="about.html" class="hero-btn">Learn More</a>
+            <h1>Інновації для розвитку України</h1>
+            <p>Міжнародний інститут розвитку та відновлення України – лідер у дослідженнях енергетики, IT і права.</p>
+            <a href="#about" class="hero-btn">Дізнатися більше</a>
         </div>
     </section>
-    <section class="section">
-        <h2>Gallery</h2>
+
+    <section id="about" class="section">
+        <h2>Про нас</h2>
+        <p>Заснований у [Рік], наш інститут фінансується грантами та об’єднує експертів для інтеграції України до ЄС. Ми співпрацюємо з Академією правових наук України, Національною юридичною академією імені Ярослава Мудрого, КПІ та Львівською політехнікою.</p>
+        <a href="#programs" class="section-btn">Докладніше</a>
+    </section>
+
+    <section id="programs" class="section">
+        <h2>Програма забезпечення енергетичної безпеки</h2>
+        <ul class="program-list">
+            <li>Наукові дослідження в енергетиці, сталому розвитку та цифрових інноваціях.</li>
+            <li>Інституційна підтримка енергетичної безпеки.</li>
+            <li>Участь у консорціумах ЄС та ініціативах сталого розвитку.</li>
+            <li>Створення аналітичних продуктів і рекомендацій.</li>
+        </ul>
+        <a href="#projects" class="section-btn">Дивитися проєкти</a>
+    </section>
+
+    <section id="projects" class="section">
+        <h2>Наші проєкти</h2>
         <div class="projects-grid">
-            <img src="../assets/placeholder1.jpg" alt="Modern laboratory with experts" loading="lazy">
-            <img src="../assets/placeholder2.jpg" alt="International conference" loading="lazy">
+            <div class="project-card">
+                <h3>Зелена енергетика</h3>
+                <p>Розробка сонячних панелей.</p>
+            </div>
+            <div class="project-card">
+                <h3>Цифрова трансформація</h3>
+                <p>Кібербезпека для України.</p>
+            </div>
+            <div class="project-card">
+                <h3>Правові реформи</h3>
+                <p>Аналіз регуляцій ЄС.</p>
+            </div>
         </div>
+        <a href="#cooperation" class="section-btn">Докладніше</a>
     </section>
+
+    <section id="cooperation" class="section">
+        <h2>Міжнародне співробітництво</h2>
+        <p>Партнерство з ЄС, міжнародними донорами, університетами (КПІ, Львівська політехніка) та R&D-організаціями.</p>
+        <a href="#careers" class="section-btn">Про партнерів</a>
+    </section>
+
+    <section id="careers" class="section">
+        <h2>Кар’єра</h2>
+        <p>Попри виклики з 24 лютого 2022 року, ми продовжуємо наймати фахівців в енергетиці, IT і праві, виплачуємо заробітну плату вчасно та підтримуємо команду.</p>
+        <a href="#contact" class="section-btn">Дивитися вакансії</a>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Контакти</h2>
+        <p>Email: <a href="mailto:eurecoveryeu@gmail.com">eurecoveryeu@gmail.com</a></p>
+        <form id="subscribe" class="contact-form">
+            <input type="email" placeholder="Ваш email" required>
+            <button type="submit">Підписатися</button>
+        </form>
+    </section>
+
     <footer>
         <div class="footer-content">
-            <p>© 2025 International Institute for Development and Recovery of Ukraine</p>
-            <p><a href="#">Privacy Policy</a> | <a href="#">Sitemap</a></p>
+            <p>© 2025 Міжнародний інститут розвитку та відновлення України</p>
+            <p><a href="#">Політика конфіденційності</a> | <a href="#">Карта сайту</a></p>
         </div>
     </footer>
-    <script src="../assets/script.js"></script>
+
+    <script src="script.js"></script>
 </body>
 </html>
