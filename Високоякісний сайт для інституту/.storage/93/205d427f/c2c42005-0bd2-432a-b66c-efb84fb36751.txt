@@ -1,0 +1,1 @@
+$ cd /workspace/shadcn-ui && rm src/components/sections/Resources.tsx
