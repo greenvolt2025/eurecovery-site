@@ -17,33 +17,32 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ${{ github.workspace }}
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup PNPM
+      - name: Setup pnpm
         uses: pnpm/action-setup@v4
-        with:
-          version: 9
+        # видалили version, тепер візьме з package.json
 
-      - name: Setup Node
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: pnpm
+          cache: 'pnpm'
 
       - name: Install dependencies
-        working-directory: ./
-        run: pnpm install --frozen-lockfile
+        run: pnpm install
 
       - name: Build project
-        working-directory: ./
         run: pnpm run build
-        # якщо вихід не в "dist", заміни у всіх нижче "dist" на свою папку (наприклад "build")
 
-      - name: Add fallback & CNAME & nojekyll
-        working-directory: ./
+      - name: Prepare deployment
         run: |
+          mkdir -p dist
           cp dist/index.html dist/404.html || true
           echo "eurecovery.eu" > dist/CNAME
           touch dist/.nojekyll
@@ -51,7 +50,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./dist
+          path: dist
 
   deploy:
     needs: build
