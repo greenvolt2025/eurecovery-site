@@ -1,0 +1,91 @@
+import { Card } from '@/components/ui/card';
+import { useLanguage } from '@/contexts/LanguageContext';
+import { useIntersectionObserver } from '@/hooks/useIntersectionObserver';
+
+export default function Partners() {
+  const { t } = useLanguage();
+  const { ref, isVisible } = useIntersectionObserver({ threshold: 0.1 });
+
+  const partners = [
+    {
+      name: 'IBM Quantum',
+      description: 'Лідер у розробці квантових комп\'ютерів та хмарних квантових сервісів',
+      logo: 'https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg',
+      specialization: 'Квантові процесори та IBM Quantum Network',
+    },
+    {
+      name: 'Google Quantum AI',
+      description: 'Дослідження квантового верховенства та розробка квантових алгоритмів',
+      logo: 'https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg',
+      specialization: 'Sycamore процесор та квантові симулятори',
+    },
+    {
+      name: 'Microsoft Azure Quantum',
+      description: 'Хмарна платформа для квантових обчислень та гібридних рішень',
+      logo: 'https://upload.wikimedia.org/wikipedia/commons/9/96/Microsoft_logo_%282012%29.svg',
+      specialization: 'Квантова хмара та Q# мова програмування',
+    },
+    {
+      name: 'IonQ',
+      description: 'Іонні пастки та високоточні квантові обчислення',
+      logo: 'https://upload.wikimedia.org/wikipedia/commons/8/81/IonQ_logo.svg',
+      specialization: 'Trapped-ion квантові системи',
+    },
+    {
+      name: 'Rigetti Computing',
+      description: 'Суперпровідні квантові процесори та квантові сервіси',
+      logo: 'https://upload.wikimedia.org/wikipedia/commons/3/3e/Rigetti_Computing_logo.svg',
+      specialization: 'Квантові чіпи та Forest SDK',
+    },
+    {
+      name: 'D-Wave Systems',
+      description: 'Квантовий відпал та оптимізаційні задачі',
+      logo: 'https://upload.wikimedia.org/wikipedia/commons/3/3b/D-Wave_Systems_logo.svg',
+      specialization: 'Quantum annealing технології',
+    },
+  ];
+
+  return (
+    <section id="partners" ref={ref} className="min-h-screen flex items-center py-24 px-6 bg-white">
+      <div className={`max-w-6xl mx-auto w-full ${isVisible ? 'fade-in' : 'opacity-0'}`}>
+        <div className="text-center mb-16 space-y-4">
+          <h2 className="text-4xl md:text-5xl font-light tracking-tight text-gray-900">
+            {t.partners.title} <span className="font-semibold gradient-text">{t.partners.titleHighlight}</span>
+          </h2>
+          <div className="w-16 h-0.5 bg-blue-600 mx-auto glow-blue"></div>
+          <p className="text-lg text-gray-700 font-light max-w-2xl mx-auto mt-6">
+            {t.partners.description}
+          </p>
+        </div>
+
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {partners.map((partner, index) => (
+            <Card
+              key={index}
+              className="p-8 border border-gray-200 hover:border-blue-500 transition-all duration-300 bg-white backdrop-blur-sm cursor-pointer card-hover"
+            >
+              <div className="h-16 mb-6 flex items-center justify-center bg-gray-50 rounded-lg p-3">
+                <img 
+                  src={partner.logo} 
+                  alt={partner.name}
+                  className="max-h-10 max-w-full object-contain opacity-90 group-hover:opacity-100 transition-opacity duration-300"
+                />
+              </div>
+              <h3 className="text-xl font-semibold mb-2 text-gray-900 group-hover:text-blue-600 transition-colors">
+                {partner.name}
+              </h3>
+              <p className="text-sm text-gray-600 font-light mb-3 leading-relaxed">
+                {partner.description}
+              </p>
+              <div className="pt-3 border-t border-gray-200">
+                <p className="text-xs text-gray-500 font-light">
+                  {partner.specialization}
+                </p>
+              </div>
+            </Card>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
