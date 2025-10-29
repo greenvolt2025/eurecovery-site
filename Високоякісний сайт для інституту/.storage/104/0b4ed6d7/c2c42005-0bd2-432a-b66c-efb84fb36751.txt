@@ -1,3 +1,0 @@
-$ cd /workspace/shadcn-ui && grep -r "Розробка\|Протиправна\|Аморальні\|Безпека\|Квантова криптографія" src/components/sections/ --include="*.tsx"
-src/components/sections/Services.tsx:        'Розробка квантових алгоритмів',
-src/components/sections/Services.tsx:        'Розробка та тестування',

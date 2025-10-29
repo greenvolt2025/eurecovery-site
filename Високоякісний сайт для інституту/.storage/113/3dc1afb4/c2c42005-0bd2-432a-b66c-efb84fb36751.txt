@@ -1,2 +1,0 @@
-$ cd /workspace/shadcn-ui && wc -l src/lib/i18n.ts
-864 src/lib/i18n.ts
