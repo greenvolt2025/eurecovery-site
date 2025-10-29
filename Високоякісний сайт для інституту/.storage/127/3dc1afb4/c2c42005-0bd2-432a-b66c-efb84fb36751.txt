@@ -1,0 +1,66 @@
+$ cd /workspace/shadcn-ui && wc -l src/lib/i18n.ts
+864 src/lib/i18n.ts
+$ cd /workspace/shadcn-ui && pnpm run lint && pnpm run build
+
+
+> shadcnui@ lint /workspace/shadcn-ui
+> eslint --quiet ./src
+
+
+> shadcnui@ build /workspace/shadcn-ui
+> vite build
+
+vite v5.4.19 building for production...
+transforming...
+✓ 1728 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   1.18 kB │ gzip:   0.68 kB
+dist/assets/index-DehGz3TK.css   65.74 kB │ gzip:  11.45 kB
+dist/assets/index-2QLdqpCu.js   489.21 kB │ gzip: 145.88 kB
+✓ built in 4.12s
+$ cd /workspace/shadcn-ui && head -n 188 src/lib/i18n.ts > /tmp/i18n_part1.txt && tail -n +189 src/lib/i18n.ts > /tmp/i18n_part2.txt
+
+$ cd /workspace/shadcn-ui && pnpm run lint && pnpm run build
+
+
+> shadcnui@ lint /workspace/shadcn-ui
+> eslint --quiet ./src
+
+
+> shadcnui@ build /workspace/shadcn-ui
+> vite build
+
+vite v5.4.19 building for production...
+transforming...
+✓ 1728 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   1.18 kB │ gzip:   0.68 kB
+dist/assets/index-DehGz3TK.css   65.74 kB │ gzip:  11.45 kB
+dist/assets/index-DinNdwm8.js   490.51 kB │ gzip: 146.21 kB
+✓ built in 4.51s
+$ cd /workspace/shadcn-ui && pnpm run lint && pnpm run build
+
+
+> shadcnui@ lint /workspace/shadcn-ui
+> eslint --quiet ./src
+
+
+> shadcnui@ build /workspace/shadcn-ui
+> vite build
+
+vite v5.4.19 building for production...
+transforming...
+✓ 1728 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   1.18 kB │ gzip:   0.68 kB
+dist/assets/index-DehGz3TK.css   65.74 kB │ gzip:  11.45 kB
+dist/assets/index-BymrJyQb.js   500.16 kB │ gzip: 149.03 kB
+
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 4.55s
