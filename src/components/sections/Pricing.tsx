@@ -31,7 +31,7 @@ export default function Pricing() {
               <h3 className="text-2xl font-semibold text-gray-900">{t.pricing.consultation}</h3>
               <div className="space-y-2">
                 <p className="text-5xl font-light text-gray-900">
-                  2000 <span className="text-2xl text-gray-600">€</span>
+                  {t.pricing.negotiable}
                 </p>
                 <p className="text-gray-600 font-light">{t.pricing.perSession}</p>
               </div>
@@ -70,7 +70,7 @@ export default function Pricing() {
               <h3 className="text-2xl font-semibold text-gray-900">{t.pricing.project}</h3>
               <div className="space-y-2">
                 <p className="text-5xl font-light text-gray-900">
-                  {t.pricing.fromPrice} 50000 <span className="text-2xl text-gray-600">€</span>
+                  {t.pricing.negotiable}
                 </p>
                 <p className="text-gray-600 font-light">{t.pricing.complexity}</p>
               </div>

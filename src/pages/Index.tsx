@@ -110,7 +110,7 @@ export default function Index() {
       <footer className="bg-gray-50 border-t border-gray-200 text-gray-900 py-12 px-6">
         <div className="max-w-6xl mx-auto text-center space-y-4">
           <p className="font-light">
-            © 2025 {t.contact.instituteName}
+            © 2026 {t.contact.instituteName}
           </p>
           <p className="text-gray-600 text-sm font-light">
             {t.hero.tagline}
