@@ -8,7 +8,6 @@ import Partners from '@/components/sections/Partners';
 import Services from '@/components/sections/Services';
 import Applications from '@/components/sections/Applications';
 import ResearchDirections from '@/components/sections/ResearchDirections';
-import ResearchEngines from '@/components/sections/ResearchEngines';
 import Humanitarian from '@/components/sections/Humanitarian';
 import Pricing from '@/components/sections/Pricing';
 import Contact from '@/components/sections/Contact';
@@ -53,11 +52,11 @@ export default function Index() {
             <div className="hidden lg:flex items-center gap-6">
               <a href="#hero" className="text-sm text-gray-600 hover:text-blue-600 transition-colors">{t.nav.home}</a>
               <a href="#about" className="text-sm text-gray-600 hover:text-blue-600 transition-colors">{t.nav.about}</a>
+              <a href="#research" className="text-sm text-gray-600 hover:text-blue-600 transition-colors">{t.nav.research}</a>
               <a href="#technology" className="text-sm text-gray-600 hover:text-blue-600 transition-colors">{t.nav.technology}</a>
               <a href="#partners" className="text-sm text-gray-600 hover:text-blue-600 transition-colors">{t.nav.partners}</a>
               <a href="#services" className="text-sm text-gray-600 hover:text-blue-600 transition-colors">{t.nav.services}</a>
               <a href="#applications" className="text-sm text-gray-600 hover:text-blue-600 transition-colors">{t.nav.applications}</a>
-              <a href="#research" className="text-sm text-gray-600 hover:text-blue-600 transition-colors">{t.nav.research}</a>
               <a href="#humanitarian" className="text-sm text-gray-600 hover:text-blue-600 transition-colors">{t.nav.humanitarian}</a>
               <a href="#pricing" className="text-sm text-gray-600 hover:text-blue-600 transition-colors">{t.nav.pricing}</a>
               <a href="#contact" className="text-sm text-gray-600 hover:text-blue-600 transition-colors">{t.nav.contact}</a>
@@ -81,11 +80,11 @@ export default function Index() {
             <div className="lg:hidden mt-4 pb-4 space-y-3 border-t border-gray-200 pt-4">
               <a href="#hero" onClick={() => setMobileMenuOpen(false)} className="block text-sm text-gray-600 hover:text-blue-600 transition-colors">{t.nav.home}</a>
               <a href="#about" onClick={() => setMobileMenuOpen(false)} className="block text-sm text-gray-600 hover:text-blue-600 transition-colors">{t.nav.about}</a>
+              <a href="#research" onClick={() => setMobileMenuOpen(false)} className="block text-sm text-gray-600 hover:text-blue-600 transition-colors">{t.nav.research}</a>
               <a href="#technology" onClick={() => setMobileMenuOpen(false)} className="block text-sm text-gray-600 hover:text-blue-600 transition-colors">{t.nav.technology}</a>
               <a href="#partners" onClick={() => setMobileMenuOpen(false)} className="block text-sm text-gray-600 hover:text-blue-600 transition-colors">{t.nav.partners}</a>
               <a href="#services" onClick={() => setMobileMenuOpen(false)} className="block text-sm text-gray-600 hover:text-blue-600 transition-colors">{t.nav.services}</a>
               <a href="#applications" onClick={() => setMobileMenuOpen(false)} className="block text-sm text-gray-600 hover:text-blue-600 transition-colors">{t.nav.applications}</a>
-              <a href="#research" onClick={() => setMobileMenuOpen(false)} className="block text-sm text-gray-600 hover:text-blue-600 transition-colors">{t.nav.research}</a>
               <a href="#humanitarian" onClick={() => setMobileMenuOpen(false)} className="block text-sm text-gray-600 hover:text-blue-600 transition-colors">{t.nav.humanitarian}</a>
               <a href="#pricing" onClick={() => setMobileMenuOpen(false)} className="block text-sm text-gray-600 hover:text-blue-600 transition-colors">{t.nav.pricing}</a>
               <a href="#contact" onClick={() => setMobileMenuOpen(false)} className="block text-sm text-gray-600 hover:text-blue-600 transition-colors">{t.nav.contact}</a>
@@ -98,13 +97,12 @@ export default function Index() {
       <div className="pt-16">
         <Hero />
         <About />
+        <ResearchDirections />
         <Fundamentals />
         <Technology />
         <Partners />
         <Services />
         <Applications />
-        <ResearchDirections />
-        <ResearchEngines />
         <Humanitarian />
         <Pricing />
         <Contact />
