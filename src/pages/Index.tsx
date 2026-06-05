@@ -45,7 +45,7 @@ export default function Index() {
                 <ellipse cx="50" cy="50" rx="35" ry="15" stroke="#2563eb" strokeWidth="2" fill="none" opacity="0.6" transform="rotate(60 50 50)" />
                 <ellipse cx="50" cy="50" rx="35" ry="15" stroke="#2563eb" strokeWidth="2" fill="none" opacity="0.6" transform="rotate(-60 50 50)" />
               </svg>
-              <span className="text-lg font-semibold text-gray-900">МІРВУ</span>
+              <span className="text-lg font-semibold text-gray-900">МІВРУ</span>
             </div>
             
             {/* Desktop Menu */}
