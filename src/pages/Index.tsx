@@ -11,6 +11,8 @@ import ResearchDirections from '@/components/sections/ResearchDirections';
 import Humanitarian from '@/components/sections/Humanitarian';
 import Pricing from '@/components/sections/Pricing';
 import Contact from '@/components/sections/Contact';
+import Privacy from '@/components/sections/Privacy';
+import Accessibility from '@/components/sections/Accessibility';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 import ScrollProgress from '@/components/ScrollProgress';
 import { Menu, X } from 'lucide-react';
@@ -106,6 +108,8 @@ export default function Index() {
         <Humanitarian />
         <Pricing />
         <Contact />
+        <Privacy />
+        <Accessibility />
       </div>
       
       {/* Footer */}
@@ -119,6 +123,11 @@ export default function Index() {
           </p>
           <p className="text-gray-500 text-xs font-light">
             {t.contact.edrpouLabel}: 45681824
+          </p>
+          <p className="text-gray-500 text-xs font-light pt-2">
+            <a href="#privacy" className="hover:text-blue-600 transition-colors">{t.contact.privacyLink}</a>
+            <span className="mx-2">·</span>
+            <a href="#accessibility" className="hover:text-blue-600 transition-colors">{t.contact.accessibilityLink}</a>
           </p>
         </div>
       </footer>
