@@ -8,6 +8,7 @@ import Partners from '@/components/sections/Partners';
 import Services from '@/components/sections/Services';
 import Applications from '@/components/sections/Applications';
 import ResearchDirections from '@/components/sections/ResearchDirections';
+import ResearchEngines from '@/components/sections/ResearchEngines';
 import Humanitarian from '@/components/sections/Humanitarian';
 import Pricing from '@/components/sections/Pricing';
 import Contact from '@/components/sections/Contact';
@@ -103,6 +104,7 @@ export default function Index() {
         <Services />
         <Applications />
         <ResearchDirections />
+        <ResearchEngines />
         <Humanitarian />
         <Pricing />
         <Contact />
