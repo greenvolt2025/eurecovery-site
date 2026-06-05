@@ -170,6 +170,8 @@ export const translations = {
       direction3Desc: 'Симуляція радіаційно-стійких сплавів і високоміцних матеріалів для критичної інфраструктури — з опорою на унікальний український контекст.',
       direction4Title: 'Квантова оптимізація для обмежених сценаріїв',
       direction4Desc: 'QAOA та квантовий відпал для задач з реальними українськими обмеженнями: мінні маршрути, логістика відновлення, енергомережі під атаками.',
+      direction5Title: 'Квантова аналітика для санкційного комплаєнсу',
+      direction5Desc: 'Застосування квантових алгоритмів (QAOA, quantum walks, QML) до аналізу транзакційних графів санкціонованих суб\'єктів та підготовка систем санкційного моніторингу до постквантової ери.',
     },
     pricing: {
       title: 'Індивідуальні',
@@ -381,6 +383,8 @@ export const translations = {
       direction3Desc: 'Simulation of radiation-resistant alloys and high-strength materials for critical infrastructure, drawing on Ukraine\'s unique post-disaster engineering context.',
       direction4Title: 'Quantum Optimization for Constrained Scenarios',
       direction4Desc: 'QAOA and quantum annealing applied to real Ukrainian constraints: mined routes, recovery logistics, and power grids under sustained attack.',
+      direction5Title: 'Quantum Analytics for Sanctions Compliance',
+      direction5Desc: 'Applying quantum algorithms (QAOA, quantum walks, QML) to transaction-graph analysis of sanctioned entities and preparing sanctions-monitoring infrastructure for the post-quantum era.',
     },
     pricing: {
       title: 'Individual',
@@ -592,6 +596,8 @@ export const translations = {
       direction3Desc: 'Simulation strahlungsresistenter Legierungen und hochfester Materialien für kritische Infrastruktur, gestützt auf den einzigartigen ukrainischen Wiederaufbaukontext.',
       direction4Title: 'Quantenoptimierung für eingeschränkte Szenarien',
       direction4Desc: 'QAOA und Quanten-Annealing für reale ukrainische Beschränkungen: verminte Routen, Wiederaufbaulogistik und Stromnetze unter anhaltenden Angriffen.',
+      direction5Title: 'Quantenanalytik für Sanktions-Compliance',
+      direction5Desc: 'Anwendung von Quantenalgorithmen (QAOA, Quantum Walks, QML) auf die Transaktionsgraphenanalyse sanktionierter Akteure und Vorbereitung der Sanktions-Monitoring-Infrastruktur auf die Post-Quanten-Ära.',
     },
     pricing: {
       title: 'Individuelle',
@@ -803,6 +809,8 @@ export const translations = {
       direction3Desc: 'Simulation d\'alliages résistants aux radiations et de matériaux à haute résistance pour l\'infrastructure critique, en s\'appuyant sur le contexte ukrainien unique de reconstruction.',
       direction4Title: 'Optimisation quantique pour scénarios contraints',
       direction4Desc: 'QAOA et recuit quantique appliqués aux contraintes réelles de l\'Ukraine : routes minées, logistique de reconstruction, réseaux électriques sous attaque continue.',
+      direction5Title: 'Analytique quantique pour la conformité aux sanctions',
+      direction5Desc: 'Application d\'algorithmes quantiques (QAOA, marches quantiques, QML) à l\'analyse des graphes de transactions des entités sanctionnées et préparation de l\'infrastructure de surveillance des sanctions à l\'ère post-quantique.',
     },
     pricing: {
       title: 'Conditions',
@@ -1014,6 +1022,8 @@ export const translations = {
       direction3Desc: 'Simulación de aleaciones resistentes a la radiación y materiales de alta resistencia para infraestructura crítica, basada en el contexto ucraniano único de recuperación.',
       direction4Title: 'Optimización cuántica para escenarios restringidos',
       direction4Desc: 'QAOA y recocido cuántico aplicados a restricciones reales de Ucrania: rutas minadas, logística de recuperación y redes eléctricas bajo ataque continuo.',
+      direction5Title: 'Analítica cuántica para el cumplimiento de sanciones',
+      direction5Desc: 'Aplicación de algoritmos cuánticos (QAOA, paseos cuánticos, QML) al análisis de grafos de transacciones de entidades sancionadas y preparación de la infraestructura de monitoreo de sanciones para la era post-cuántica.',
     },
     pricing: {
       title: 'Condiciones',
@@ -1225,6 +1235,8 @@ export const translations = {
       direction3Desc: 'Simulatie van stralingsbestendige legeringen en hoogwaardige materialen voor kritieke infrastructuur, gebaseerd op de unieke Oekraïense herstelcontext.',
       direction4Title: 'Quantumoptimalisatie voor beperkte scenario\'s',
       direction4Desc: 'QAOA en quantum annealing toegepast op echte Oekraïense beperkingen: gemineerde routes, herstellogistiek en elektriciteitsnetten onder aanhoudende aanvallen.',
+      direction5Title: 'Quantum-analyse voor sanctie-compliance',
+      direction5Desc: 'Toepassing van quantumalgoritmen (QAOA, quantum walks, QML) op transactiegrafenanalyse van gesanctioneerde entiteiten en voorbereiding van de sanctie-monitoringinfrastructuur op het post-quantumtijdperk.',
     },
     pricing: {
       title: 'Individuele',
