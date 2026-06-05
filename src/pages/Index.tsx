@@ -96,7 +96,7 @@ export default function Index() {
       </nav>
 
       {/* Main content */}
-      <div className="pt-16">
+      <main className="pt-16">
         <Hero />
         <About />
         <ResearchDirections />
@@ -110,7 +110,7 @@ export default function Index() {
         <Contact />
         <Privacy />
         <Accessibility />
-      </div>
+      </main>
       
       {/* Footer */}
       <footer className="bg-gray-50 border-t border-gray-200 text-gray-900 py-12 px-6">
