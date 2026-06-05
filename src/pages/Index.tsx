@@ -10,7 +10,6 @@ import Applications from '@/components/sections/Applications';
 import Humanitarian from '@/components/sections/Humanitarian';
 import Pricing from '@/components/sections/Pricing';
 import Contact from '@/components/sections/Contact';
-import Stats from '@/components/sections/Stats';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 import ScrollProgress from '@/components/ScrollProgress';
 import { Menu, X } from 'lucide-react';
@@ -95,7 +94,6 @@ export default function Index() {
       <div className="pt-16">
         <Hero />
         <About />
-        <Stats />
         <Fundamentals />
         <Technology />
         <Partners />
@@ -114,6 +112,9 @@ export default function Index() {
           </p>
           <p className="text-gray-600 text-sm font-light">
             {t.hero.tagline}
+          </p>
+          <p className="text-gray-500 text-xs font-light">
+            {t.contact.edrpouLabel}: 45681824
           </p>
         </div>
       </footer>
