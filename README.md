@@ -1,6 +1,6 @@
 # Quantum Computing Institute Website
 
-A modern, multilingual website for the International Institute for Development and Recovery of Ukraine, specializing in quantum computing research and applications.
+A modern, multilingual website for the International Institute for Recovery and Development of Ukraine, specializing in quantum computing research and applications.
 
 ## 🌍 Features
 
@@ -117,7 +117,7 @@ For inquiries, please contact: eurecoveryeu@gmail.com
 
 ## 📄 License
 
-This project is private and proprietary to the International Institute for Development and Recovery of Ukraine.
+This project is private and proprietary to the International Institute for Recovery and Development of Ukraine.
 
 ## 🤝 Contributing
 

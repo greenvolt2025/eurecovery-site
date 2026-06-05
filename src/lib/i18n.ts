@@ -13,7 +13,7 @@ export const translations = {
     },
     hero: {
       subtitle: 'Приватна наукова установа',
-      title: 'Міжнародний інститут розвитку та відновлення України',
+      title: 'Міжнародний інститут відновлення та розвитку України',
       tagline: 'Квантові обчислення для відновлення та розвитку України',
       description: 'Прикладні дослідження та розробки з практичним впровадженням у бізнесі та державному секторі',
       learnMore: 'Дізнатися більше',
@@ -174,7 +174,7 @@ export const translations = {
       individualApproach: 'Індивідуальний підхід до кожного проекту. Фінальна вартість визначається після детального аналізу ваших потреб',
       humanitarian: 'Гуманітарні проекти',
       humanitarianPrice: 'Безкоштовно',
-      humanitarianDesc: 'Для проектів розвитку та відновлення України',
+      humanitarianDesc: 'Для проектів відновлення та розвитку України',
       applyHumanitarian: 'Подати заявку',
     },
     contact: {
@@ -193,7 +193,7 @@ export const translations = {
       get3: 'Рекомендації щодо реалізації',
       get4: 'Комерційну пропозицію',
       writeUs: 'Написати нам',
-      instituteName: 'Приватна наукова установа "Міжнародний інститут розвитку та відновлення України"',
+      instituteName: 'Приватна наукова установа "Міжнародний інститут відновлення та розвитку України"',
     },
   },
   en: {
@@ -210,7 +210,7 @@ export const translations = {
     },
     hero: {
       subtitle: 'Private Scientific Institution',
-      title: 'International Institute for Development and Recovery of Ukraine',
+      title: 'International Institute for Recovery and Development of Ukraine',
       tagline: 'Quantum Computing for Ukraine\'s Recovery and Development',
       description: 'Applied research and development with practical implementation in business and public sector',
       learnMore: 'Learn More',
@@ -390,7 +390,7 @@ export const translations = {
       get3: 'Implementation recommendations',
       get4: 'Commercial proposal',
       writeUs: 'Write to Us',
-      instituteName: 'Private Scientific Institution "International Institute for Development and Recovery of Ukraine"',
+      instituteName: 'Private Scientific Institution "International Institute for Recovery and Development of Ukraine"',
     },
   },
   de: {
@@ -407,7 +407,7 @@ export const translations = {
     },
     hero: {
       subtitle: 'Private Wissenschaftliche Einrichtung',
-      title: 'Internationales Institut für Entwicklung und Wiederaufbau der Ukraine',
+      title: 'Internationales Institut für Wiederaufbau und Entwicklung der Ukraine',
       tagline: 'Quantencomputing für Wiederaufbau und Entwicklung der Ukraine',
       description: 'Angewandte Forschung und Entwicklung mit praktischer Umsetzung in Wirtschaft und öffentlichem Sektor',
       learnMore: 'Mehr erfahren',
@@ -568,7 +568,7 @@ export const translations = {
       individualApproach: 'Individueller Ansatz für jedes Projekt. Die endgültigen Kosten werden nach detaillierter Analyse Ihrer Bedürfnisse festgelegt',
       humanitarian: 'Humanitäre Projekte',
       humanitarianPrice: 'Kostenlos',
-      humanitarianDesc: 'Für Projekte zur Entwicklung und Wiederaufbau der Ukraine',
+      humanitarianDesc: 'Für Projekte zum Wiederaufbau und zur Entwicklung der Ukraine',
       applyHumanitarian: 'Bewerben',
     },
     contact: {
@@ -587,7 +587,7 @@ export const translations = {
       get3: 'Implementierungsempfehlungen',
       get4: 'Kommerzielles Angebot',
       writeUs: 'Schreiben Sie uns',
-      instituteName: 'Private Wissenschaftliche Einrichtung "Internationales Institut für Entwicklung und Wiederaufbau der Ukraine"',
+      instituteName: 'Private Wissenschaftliche Einrichtung "Internationales Institut für Wiederaufbau und Entwicklung der Ukraine"',
     },
   },
   fr: {
@@ -604,7 +604,7 @@ export const translations = {
     },
     hero: {
       subtitle: 'Institution Scientifique Privée',
-      title: 'Institut International pour le Développement et la Reconstruction de l\'Ukraine',
+      title: 'Institut International pour la Reconstruction et le Développement de l\'Ukraine',
       tagline: 'Informatique quantique pour la reconstruction et le développement de l\'Ukraine',
       description: 'Recherche appliquée et développement avec mise en œuvre pratique dans les entreprises et le secteur public',
       learnMore: 'En savoir plus',
@@ -736,9 +736,9 @@ export const translations = {
     humanitarian: {
       title: 'Projets',
       titleHighlight: 'humanitaires',
-      description: 'L\'Institut soutient le développement et la reconstruction de l\'Ukraine',
+      description: 'L\'Institut soutient la reconstruction et le développement de l\'Ukraine',
       free: 'Traitement gratuit',
-      freeDesc: 'Les projets humanitaires (socialement bénéfiques) visant le développement et la reconstruction de l\'Ukraine peuvent être traités gratuitement',
+      freeDesc: 'Les projets humanitaires (socialement bénéfiques) visant la reconstruction et le développement de l\'Ukraine peuvent être traités gratuitement',
       howToApply: 'Comment postuler',
       step1: 'Décrivez votre projet et son bénéfice social',
       step2: 'Fournissez un plan de mise en œuvre et les résultats attendus',
@@ -765,7 +765,7 @@ export const translations = {
       individualApproach: 'Approche individuelle pour chaque projet. Le coût final est déterminé après une analyse détaillée de vos besoins',
       humanitarian: 'Projets humanitaires',
       humanitarianPrice: 'Gratuit',
-      humanitarianDesc: 'Pour les projets de développement et reconstruction de l\'Ukraine',
+      humanitarianDesc: 'Pour les projets de reconstruction et développement de l\'Ukraine',
       applyHumanitarian: 'Postuler',
     },
     contact: {
@@ -784,7 +784,7 @@ export const translations = {
       get3: 'Recommandations de mise en œuvre',
       get4: 'Proposition commerciale',
       writeUs: 'Écrivez-nous',
-      instituteName: 'Institution Scientifique Privée "Institut International pour le Développement et la Reconstruction de l\'Ukraine"',
+      instituteName: 'Institution Scientifique Privée "Institut International pour la Reconstruction et le Développement de l\'Ukraine"',
     },
   },
   es: {
@@ -801,7 +801,7 @@ export const translations = {
     },
     hero: {
       subtitle: 'Institución Científica Privada',
-      title: 'Instituto Internacional para el Desarrollo y Recuperación de Ucrania',
+      title: 'Instituto Internacional para la Recuperación y el Desarrollo de Ucrania',
       tagline: 'Computación cuántica para la recuperación y desarrollo de Ucrania',
       description: 'Investigación aplicada y desarrollo con implementación práctica en empresas y sector público',
       learnMore: 'Saber más',
@@ -981,7 +981,7 @@ export const translations = {
       get3: 'Recomendaciones de implementación',
       get4: 'Propuesta comercial',
       writeUs: 'Escríbanos',
-      instituteName: 'Institución Científica Privada "Instituto Internacional para el Desarrollo y Recuperación de Ucrania"',
+      instituteName: 'Institución Científica Privada "Instituto Internacional para la Recuperación y el Desarrollo de Ucrania"',
     },
   },
   nl: {
@@ -998,7 +998,7 @@ export const translations = {
     },
     hero: {
       subtitle: 'Particuliere Wetenschappelijke Instelling',
-      title: 'Internationaal Instituut voor Ontwikkeling en Herstel van Oekraïne',
+      title: 'Internationaal Instituut voor Herstel en Ontwikkeling van Oekraïne',
       tagline: 'Quantum Computing voor het herstel en de ontwikkeling van Oekraïne',
       description: 'Toegepast onderzoek en ontwikkeling met praktische implementatie in het bedrijfsleven en de publieke sector',
       learnMore: 'Meer informatie',
@@ -1178,7 +1178,7 @@ export const translations = {
       get3: 'Implementatie-aanbevelingen',
       get4: 'Commercieel voorstel',
       writeUs: 'Schrijf ons',
-      instituteName: 'Particuliere Wetenschappelijke Instelling "Internationaal Instituut voor Ontwikkeling en Herstel van Oekraïne"',
+      instituteName: 'Particuliere Wetenschappelijke Instelling "Internationaal Instituut voor Herstel en Ontwikkeling van Oekraïne"',
     },
   },
 };
