@@ -59,8 +59,18 @@ export default function ResearchDirections() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-6">
-          {directions.map((d, i) => (
+        {/* Feature card #1 — spans full width on md+ */}
+        <Card className="p-8 border-2 border-blue-200 hover:border-blue-500 transition-all duration-300 bg-gradient-to-br from-blue-50 to-white backdrop-blur-sm card-hover mb-6">
+          <div className="w-14 h-14 flex items-center justify-center bg-blue-100 rounded-xl mb-6 border border-blue-300">
+            {directions[0].icon}
+          </div>
+          <h3 className="text-2xl font-semibold mb-4 text-gray-900">{directions[0].title}</h3>
+          <p className="text-gray-700 font-light leading-relaxed max-w-4xl">{directions[0].desc}</p>
+        </Card>
+
+        {/* Cards #2-4 in a 3-column row */}
+        <div className="grid md:grid-cols-3 gap-6">
+          {directions.slice(1).map((d, i) => (
             <Card
               key={i}
               className="p-8 border border-gray-200 hover:border-blue-500 transition-all duration-300 bg-white backdrop-blur-sm card-hover"
